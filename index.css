@@ -1,0 +1,19 @@
+body {
+            background-color: seashell;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(9, 30px);
+            grid-template-rows: repeat(9, 30px);
+            
+        }
+
+        .cell {
+            border: 2px solid gray;
+            display: inline-block;
+            margin: 2px;
+            padding: 2px;
+            box-shadow: 2px 2px;
+            
+        }
